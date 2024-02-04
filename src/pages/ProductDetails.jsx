@@ -22,7 +22,7 @@ const ProductDetails = () => {
   const { addProductToCart, disableCart } = useCartContext();
   const { addProductToWishlist, deleteProductFromWishlist, disableWish } =
     useWishlistContext();
-  // eslint-disable-next-line no-unused-vars
+  
   const [loading, setLoading] = useState(false);
   const product = getProductById(productId);
 
@@ -37,7 +37,7 @@ const ProductDetails = () => {
         setLoading(false);
       }
     })();
-  }, [allProducts]);
+  }, [allProducts, productId]);
 
   return (
     <div className="md:min-h-[80vh] flex justify-center items-center pt-5 sm:pt-3 pb-2 relative">
