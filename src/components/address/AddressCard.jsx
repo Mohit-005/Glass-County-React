@@ -9,7 +9,6 @@ const AddressCard = ({
   setShowAddressForm,
 }) => {
   const { id, fullname, mobile, flat, area, city, pincode } = address;
-  // eslint-disable-next-line no-unused-vars
   const { currentAddress, setCurrentAddress, updateAddress, deleteAddress } =
     useProductsContext();
   return (
