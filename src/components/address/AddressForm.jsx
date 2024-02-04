@@ -119,9 +119,9 @@ const AddressForm = ({ setShowAddressForm, editAddress, setEditAddress }) => {
             onClick={() => {
               setNewAddress({
                 id: uuid(),
-                fullname: "Mohit Kumar",
-                mobile: "9761668694",
-                flat: "House No. 155",
+                fullname: "Mohit",
+                mobile: "0123456789",
+                flat: "House No. 000",
                 area: "Raj Vihar Colony, Navada",
                 city: "Mathura",
                 pincode: "281006",
