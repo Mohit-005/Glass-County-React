@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { useAuthContext, useProductsContext } from "../contexts";
 
-// eslint-disable-next-line no-unused-vars
+
 import { AddressCard, AddressForm } from "../components";
 import Address from "../components/address/Address";
 
@@ -10,10 +10,10 @@ const Profile = () => {
   const userDetails = localStorage.getItem("userInfo")
     ? JSON.parse(localStorage.getItem("userInfo"))
     : null;
-  // eslint-disable-next-line no-unused-vars
+  
   const { addressList } = useProductsContext();
   const [selectedItem, setSelectedItem] = useState("profile");
-  // eslint-disable-next-line no-unused-vars
+  
   const [addNewAddress, setAddNewAddress] = useState(false);
   const [loggingOut, setLoggingOut] = useState(false);
 
