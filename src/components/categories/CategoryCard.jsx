@@ -7,7 +7,6 @@ const CategoryCard = ({
 }) => {
   const navigate = useNavigate();
   const { applyFilters } = useProductsContext();
-  // eslint-disable-next-line no-unused-vars
   const [showCategory, setShowCategory] = useState(true);
   const clickHandler = () => {
     applyFilters("categories", [categoryName]);
