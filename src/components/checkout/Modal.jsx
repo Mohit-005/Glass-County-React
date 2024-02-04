@@ -44,7 +44,7 @@ const Modal = ({ showModal, setShowModal }) => {
     );
 
     if (!res) {
-      console.log("Razorpay SDK failed to load, check you connection", "error");
+      console.log("Razorpay SDK failed to load, check your connection", "error");
       return;
     }
 
@@ -52,8 +52,8 @@ const Modal = ({ showModal, setShowModal }) => {
       key: "rzp_test_H2lv7MTHG3JATn",
       amount: totalPriceOfCartProducts * 100,
       currency: "INR",
-      name: "Eyesome",
-      description: "Be awesome with eyesome :)",
+      name: "Glass County",
+      description: "Explore Endless Eyewear Elegance at Glass County",
       image: appLogo,
       handler: function () {
         clearCart();
@@ -63,8 +63,8 @@ const Modal = ({ showModal, setShowModal }) => {
       },
       prefill: {
         name: userInfo ? userInfo.username : "Test",
-        email: userInfo ? userInfo.email : "abc@gmail.com",
-        contact: "9833445762",
+        email: userInfo ? userInfo.email : "mohitlove@boobs.com",
+        contact: "0123456789",
       },
       theme: {
         color: "#f9ca24",
