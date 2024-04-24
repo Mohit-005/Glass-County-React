@@ -3,7 +3,7 @@
 
 # Coming Soon...
 
-### Technologies Used
+### Tech Stacks Used
 
 - ReactJS
 - React Context API + useReducer
