@@ -1,7 +1,8 @@
 # Glass-County-React
 
-<h3 align="center">Eyesome is a platform dedicated to providing a seamless shopping experience for eyewear products.</h3>
-<br/>
+# Glass County is an online Eyewear Store.
+
+`<br/>`
 
 ## Getting Started
 
