@@ -16,12 +16,12 @@ export const initialState = {
   addressList: [
     {
       id: "61bf1558-94c3-4494-a522-0aad46ed5334",
-      fullname: "Mohit Kumar",
-      mobile: "0123456789",
-      flat: "69, Boob Plaza, Boob Palace ",
-      area: "Boob City",
-      city: "Boob Land",
-      pincode: "696969",
+      fullname: "Jeon Jungkook",
+      mobile: "0637291830",
+      flat: "42, Yongsan Trade Center, Yongsan ",
+      area: "Hangang-daero",
+      city: "Seoul",
+      pincode: "04322",
     },
   ],
 };
