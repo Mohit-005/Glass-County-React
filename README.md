@@ -1,4 +1,4 @@
-# `<h1 align="center">` Glass-County-React `</h1>`
+# Glass-County-React
 
 <h3 align="center">Eyesome is a platform dedicated to providing a seamless shopping experience for eyewear products.</h3>
 <br/>
