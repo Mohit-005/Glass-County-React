@@ -1,8 +1,7 @@
 # Glass-County-React
 
-# Glass County is an online Eyewear Store.
 
-`<br/>`
+#### Glass County is an online Eyewear Store.
 
 ## Getting Started
 
